@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TODOLIST">
         <activity
+            android:name=".mobilemoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sendmoneyactivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateBMIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calculateBMIactivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
